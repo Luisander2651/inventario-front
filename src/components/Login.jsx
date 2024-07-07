@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Login.css";
-import User from "./icons/User";
-import Pass from "./icons/Pass";
+import User from "./icons/User.jsx";
+import Pass from "./icons/Pass.jsx";
 
 export default function Login() {
   // const [username, setUsername] = useState("");
@@ -19,7 +19,7 @@ export default function Login() {
         <form action="">
             <h1>Login</h1>
             <div className="inputBox">
-                <input type="text" placeholder="Nombre de Usuario" required/>
+                <input type="email" placeholder="Email" required/>
                 <User />
             </div>
             <div className="inputBox">
